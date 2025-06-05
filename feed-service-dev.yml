@@ -1,11 +1,11 @@
 build:
   info:
     app:
-      name: post Service
+      name: feed-service
       version: 1.0.0
-      description: Service for managing user posts
+      description: Service for managing user feed
 accounts:
-  message:  Welcome to the post  Service!
+  message:  Welcome to the feed  Service!
   contactDetails:
     email:"fahed.khutaba@gmail.com"
 spring:
