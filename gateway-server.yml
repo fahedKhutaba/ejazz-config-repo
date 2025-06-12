@@ -15,24 +15,6 @@ management:
     web:
       exposure:
         include: "*"
-  endpoint:
-    gateway:
-      access: unrestricted
-  info:
-    env:
-      enabled: true
-
-info:
-  app:
-    name: "gateway-server"
-    description: "Ejazz Gateway Server Application"
-    version: "1.0.0"
-
-logging:
-  level:
-    com:
-      eazybytes:
-        gatewayserver: DEBUG
 
 spring:
   cloud:
