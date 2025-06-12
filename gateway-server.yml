@@ -24,8 +24,8 @@ management:
 
 info:
   app:
-    name: "gatewayserver"
-    description: "Eazy Bank Gateway Server Application"
+    name: "gateway-server"
+    description: "Ejazz Gateway Server Application"
     version: "1.0.0"
 
 logging:
