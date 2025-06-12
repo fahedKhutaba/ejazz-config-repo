@@ -33,3 +33,12 @@ logging:
     com:
       eazybytes:
         gatewayserver: DEBUG
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test_route
+          uri: http://httpbin.org/get
+          predicates:
+            - Path=/test/**
